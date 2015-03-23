@@ -1,0 +1,9 @@
+<template name="basicUse">
+    {{jsonPtr this "/a/b"}}
+</template>
+
+<template name="blockUse">
+    {{#if jsonPtr this "/a/aDefined"}}
+        {{jsonPtr this "/a/b"}}
+    {{/if}}
+</template>
