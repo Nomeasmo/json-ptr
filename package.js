@@ -1,13 +1,12 @@
 // package metadata file for Meteor.js
 
-var packageName = 'json-ptr';  // https://github.com/flitbit/json-path
+var packageName = 'nomeasmo:json-ptr';  // https://github.com/flitbit/json-path
 var both = ['client', 'server'];  // where to install: 'client', 'server', or ['client', 'server']
-var packageJson = JSON.parse(Npm.require("fs").readFileSync('packages/json-ptr/package.json'));
 
 Package.describe({
     name: packageName,
     summary: 'A complete implementation of JSON Pointer (RFC 6901) for meteor.',
-    version: packageJson.version,
+    version: '0.2.1',
     git: 'https://github.com/nomeasmo/json-ptr'
 });
 
