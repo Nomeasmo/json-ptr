@@ -6,9 +6,9 @@ var packageJson = JSON.parse(Npm.require("fs").readFileSync('packages/json-ptr/p
 
 Package.describe({
     name: packageName,
-    summary: 'A complete implementation of JSON Pointer (RFC 6901) for nodejs and modern browsers.',
+    summary: 'A complete implementation of JSON Pointer (RFC 6901) for meteor.',
     version: packageJson.version,
-    git: 'https://github.com/flitbit/json-ptr'
+    git: 'https://github.com/nomeasmo/json-ptr'
 });
 
 Package.onUse(function (api) {

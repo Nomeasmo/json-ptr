@@ -10,7 +10,7 @@ Please refer to this project for the syntax.
 
 ## Installation
 
-`meteor add xx:json-ptr`
+`meteor add nomeasmo:json-ptr`
 
 ## Example
 
