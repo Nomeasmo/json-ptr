@@ -19,7 +19,7 @@ Package.onUse(function (api) {
 });
 
 Package.on_test(function (api) {
-    api.use(["tinytest", "json-ptr"]);
+    api.use(["tinytest", packageName]);
     api.use("templating", "client");
 
     // add stubs
